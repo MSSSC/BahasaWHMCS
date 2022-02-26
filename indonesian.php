@@ -16,7 +16,7 @@
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
-$_LANG['locale'] = "id";
+$_LANG['locale'] = "id-ID";
 
 $_LANG['accountinfo'] = "Informasi Akun";
 $_LANG['accountstats'] = "Statistik Akun";
@@ -935,7 +935,7 @@ $_LANG['masspaymakepayment'] = "Melakukan pembayaran";
 
 # Version 4.3
 
-$_LANG['searchenterdomain'] = "Masukkan Domain untuk Ditemukan";
+$_LANG['searchenterdomain'] = "Masukkan Domain Untuk Dicari";
 $_LANG['searchfilter'] = "Filter";
 
 $_LANG['suspendreason'] = "Suspension Reason";
@@ -1079,26 +1079,26 @@ $_LANG['cartnameserverchoicedefault'] = "Gunakan server nama default untuk hosti
 $_LANG['cartnameserverchoicecustom'] = "Gunakan server nama khusus";
 $_LANG['cartfollowingaddonsavailable'] = "The following addons are available for your active products & services.";
 $_LANG['cartregisterdomainchoice'] = "Pendaftaran domain baru";
-$_LANG['carttransferdomainchoice'] = "Transfer your domain from another registrar";
+$_LANG['carttransferdomainchoice'] = "Transfer domain Anda dari provider lain";
 $_LANG['cartexistingdomainchoice'] = "Saya akan menggunakan domain saya yang ada dan memperbarui servernama saya";
-$_LANG['cartsubdomainchoice'] = "Use a subdomain from %s";
+$_LANG['cartsubdomainchoice'] = "Gunakan Sub-domain dari %s";
 $_LANG['carterrordomainconfigskipped'] = "You must go back and complete the required domain configuration fields above";
 $_LANG['cartproductchooseoptions'] = "Pilih Opsi";
-$_LANG['cartproductselection'] = "Product Selection";
+$_LANG['cartproductselection'] = "Pilihan produk";
 $_LANG['cartreviewcheckout'] = "Tinjau & Bayar";
 $_LANG['cartchoosecycle'] = "Pilih Siklus Penagihan";
 $_LANG['cartavailableaddons'] = "Available Addons";
 $_LANG['cartsetupfees'] = "Fee Konfigurasi";
-$_LANG['cartchooseanotherproduct'] = "Choose Another Product";
+$_LANG['cartchooseanotherproduct'] = "Pilih produk yang lain";
 $_LANG['cartaddandcheckout'] = "Tambahkan ke keranjang & Bayar";
-$_LANG['cartchooseanothercategory'] = "Choose Another Category";
-$_LANG['carttryanotherdomain'] = "Try another domain";
+$_LANG['cartchooseanothercategory'] = "Pilih kategori yang lain";
+$_LANG['carttryanotherdomain'] = "Coba domain yang lain";
 $_LANG['cartmakedomainselection'] = "Please provide us with the domain you want to use with your hosting service by selecting an option from the selections below.";
 $_LANG['cartfraudcheck'] = "Fraud Check";
 
-$_LANG['newcustomer'] = "New Customer";
-$_LANG['existingcustomer'] = "Existing Customer";
-$_LANG['newcustomersignup'] = "<strong>Not Yet Registered?</strong> %sClick here to signup...%s";
+$_LANG['newcustomer'] = "Pelanggan Baru";
+$_LANG['existingcustomer'] = "Sudah Berlangganan";
+$_LANG['newcustomersignup'] = "<strong>Belum Mendaftar?</strong> %sKlik disini untuk mendaftar...%s";
 
 $_LANG['upgradeonselectedoptions'] = "(On Selected Options)";
 $_LANG['recurringpromodesc'] = "This promotion code also includes a %s Recurring Discount<br />(This discount will apply to future renewals of the product's total price)";
@@ -1111,39 +1111,39 @@ $_LANG['ajaxcartconfigreqnotice'] = "You're on the way to signing up with us, bu
 
 # Version 5.0.0
 
-$_LANG['cancelrequestdomain'] = "Cancel Domain Renewal?";
+$_LANG['cancelrequestdomain'] = "Batalkan Perpanjangan Domain?";
 $_LANG['cancelrequestdomaindesc'] = "Anda juga memiliki pendaftaran domain aktif untuk domain yang terkait dengan produk ini<br />Domain ini akan diperpanjang pada %s dengan biaya sebesar %s untuk %s Tahun<br /><br />Jika Anda juga ingin membatalkan domain, dan membiarkannya kedaluwarsa pada akhir pendaftaran saat ini, cukup centang kotak di bawah.";
 $_LANG['cancelrequestdomainconfirm'] = "I confirm I do not want to renew this domain again";
 
 $_LANG['startingfrom'] = "Starting from";
 
 $_LANG['orderpromopriceoverride'] = "Price Override";
-$_LANG['orderpromofreesetup'] = "Free Setup";
+$_LANG['orderpromofreesetup'] = "Gratis Pemasangan";
 
-$_LANG['thereisaproblem'] = "Oops, there's a problem...";
-$_LANG['problemgoback'] = "Go back & try again";
+$_LANG['thereisaproblem'] = "Oops, sepertinya ada masalah...";
+$_LANG['problemgoback'] = "Kembali & coba lagi";
 
-$_LANG['quantity'] = "Quantity";
+$_LANG['quantity'] = "Kuantitas";
 $_LANG['cartqtyenterquantity'] = "Want more than 1 of this item? Enter Quantity Here:";
-$_LANG['cartqtyupdate'] = "Update";
-$_LANG['invoiceqtyeach'] = "/each";
+$_LANG['cartqtyupdate'] = "Perbarui";
+$_LANG['invoiceqtyeach'] = "/setiap";
 
 $_LANG['nschoicedefault'] = "Gunakan default nameservers";
 $_LANG['nschoicecustom'] = "Gunakan custom nameservers (masukan dibawah)";
 
-$_LANG['jumpto'] = "Jump to";
-$_LANG['top'] = "Top";
+$_LANG['jumpto'] = "Lompat ke";
+$_LANG['top'] = "Atas";
 
-$_LANG['domaincontactusexisting'] = "Use existing account contact";
+$_LANG['domaincontactusexisting'] = "Gunakan kontak akun yang sudah ada";
 $_LANG['domaincontactusecustom'] = "Specify custom information below";
 $_LANG['domaincontactchoose'] = "Pilih Kontak";
-$_LANG['domaincontactprimary'] = "Primary Profile Data";
+$_LANG['domaincontactprimary'] = "Data Profil Utama";
 
 $_LANG['invoicepdfgenerated'] = "PDF Generated on";
 
 $_LANG['domainrenewalsbeforerenewlimit'] = "Minimum Advance Renewal is %s Days";
 
-$_LANG['promonewsignupsonly'] = "This promotion code is only valid for new customers";
+$_LANG['promonewsignupsonly'] = "Kode promo ini hanya aktif untuk pengguna baru";
 
 # Bulk Domain Management
 
